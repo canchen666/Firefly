@@ -76,6 +76,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// MyAnimeList
 			LinkPresets.MAL,
+
+			{
+				name: "资源",
+				url: "/resources/",
+				icon: "material-symbols:folder-open", // 或 "material-symbols:cloud"
+			}
 		],
 	});
 
